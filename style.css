@@ -1,0 +1,145 @@
+body{
+    margin:0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 300px;
+    height: 400px;
+    box-shadow: 1px 1px 5px  2px;
+    border-radius:5px ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    background-color: rgb(34, 34, 194);
+
+}
+
+.top{
+    flex:1;
+    order:1;
+
+}
+.back{
+    color:white;
+    margin:20px 0px 0px 20px;
+    font-size: 20px;
+}
+.welcome{
+    margin:30px;
+    color:white;
+    font-size: 15px;
+
+}
+p{
+    margin-top:5px;
+    padding:0;
+    font-size: 12px;
+}
+
+.bottom{
+    flex:2;
+    order:2;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-color: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.cont{
+   margin:30px;
+ 
+   font-size: 12px;
+   
+}
+.login{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.title{
+    flex:5;
+    order:1;
+   }
+.on-off{
+    flex:1;
+    order:2;
+    
+}
+.click_fon{
+    width: 30px;
+    height: 10px;
+    background-color: burlywood;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.circle{
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: blueviolet;
+    position: absolute;
+    transform: translate(150%,-90%);
+    
+}
+
+
+input{
+    border-radius: 15px;
+    height: 25px;
+    width: 248px;
+    border: none;
+    margin-top:15px;
+    font-size: 12px;
+    background-color: rgba(231, 228, 228, 0.986);
+}
+.remember{
+    display: flex;
+
+}
+h2{
+    margin-top:10px;
+    padding:0;
+    font-size: 10px;
+    justify-content: space-between;
+}
+.signin{
+    display: flex;
+    
+}
+h3{
+    margin:0;
+    flex:2;
+    order:1;
+    font-size: 12px;
+    line-height: 25px;
+}  
+button{
+    flex:1;
+    order:2;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(33, 33, 219);
+    color:white;
+    height: 25px;
+    font-size: 10px;
+
+
+}
+.text{
+    display: flex;
+    margin-top:35px
+
+}
+
+h5{
+    color:blue;
+    margin:0;
+}

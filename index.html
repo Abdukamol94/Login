@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form" id="top1">
+        <div class="top" >
+            <div class="back">
+               <b><</b>     
+            </div>
+           <div class="welcome">
+              <b> Welcome Back </b> <br>
+               <p>
+               We missed you? Login to get Started
+
+               </p>
+           </div> 
+
+        </div>
+
+        <div class="bottom" id="bottom1"  >
+            <div class="cont">
+                <div class="login">
+                    <div class="title" id="title1" >
+                        LOGIN
+                    </div>
+                    <div class="on-off">
+                        <div onclick="Click()"   class="click_fon">  </div>
+                        <div  class="circle" id="check">
+
+                        </div>
+                    </div>
+
+
+                </div>
+                 <input type="text" placeholder="email" >
+                 <input type="password" placeholder="password" >
+                <div class="remember">
+
+                    <input  style="margin-top:10px; height: 10px; width: 15px;" type="checkbox" name="" id="" > 
+                    <h2 id="h21" >Remember Me</h2>
+                </div>
+                <div class="signin">
+                   <h3 id="h3" ><b>Need Help?</b></h3>     
+                   <button id="sign" >Sign In</button>
+
+                </div>
+                <div  id="text" class="text">
+                    Don't have an accaunt? <h5>Register Instaed</h5>
+                </div>
+                    
+
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+<script>
+    var key=true
+
+
+    function Click(){
+     if(key){
+
+         document.getElementById("bottom1").style.backgroundColor = "rgb(46, 46, 46)";   
+         document.getElementById("bottom1").style.transition = "1s";   
+         document.getElementById("top1").style.backgroundColor = "black";   
+         document.getElementById("top1").style.transition = "1s";   
+         document.getElementById("title1").style.color = "white";   
+         document.getElementById("title1").style.transition = "1s";   
+         document.getElementById("h21").style.color = "white";   
+         document.getElementById("h21").style.transition = "1s";   
+         document.getElementById("h3").style.color = "white";   
+         document.getElementById("h3").style.transition = "1s";   
+         document.getElementById("text").style.color = "white";   
+         document.getElementById("text").style.transition = "1s";   
+         document.getElementById("sign").style.backgroundColor = "magenta";   
+         document.getElementById("sign").style.transition = "1s";   
+
+        
+        
+         document.getElementById("check").style.transform = "translate(0%,-90%)"; 
+         document.getElementById("check").style.transition = "1s"; 
+
+         
+
+        key=false
+        }
+    else{
+        document.getElementById("bottom1").style.backgroundColor = "white";   
+        document.getElementById("bottom1").style.transition = "1s";   
+        document.getElementById("top1").style.backgroundColor = " rgb(34, 34, 194)";   
+        document.getElementById("top1").style.transition = "1s";   
+        document.getElementById("check").style.transform = "translate(150%,-90%)";   
+        document.getElementById("check").style.transition = "1s"; 
+        document.getElementById("title1").style.color = "black";   
+         document.getElementById("title1").style.transition = "1s";   
+         document.getElementById("h21").style.color = "black";   
+         document.getElementById("h21").style.transition = "1s";  
+         document.getElementById("h3").style.color = "black";   
+         document.getElementById("h3").style.transition = "1s";   
+         document.getElementById("text").style.color = "black";   
+         document.getElementById("text").style.transition = "1s";  
+         document.getElementById("sign").style.backgroundColor = " rgb(33, 33, 219)";   
+         document.getElementById("sign").style.transition = "1s";  
+ 
+
+        key=true
+
+    }
+
+
+}        
+
+
+
+
+</script>
+</html>
